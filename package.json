@@ -1,0 +1,29 @@
+{
+  "name": "challenger-proyecto",
+  "version": "1.0.0",
+  "description": "Proyecto 1",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/Jair-Academlo/Challenge-Alkemi.git"
+  },
+  "keywords": [
+    "challenge"
+  ],
+  "author": "Jair Rincon",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
